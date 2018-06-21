@@ -33,11 +33,7 @@
 		<property name="dataSource" ref="dataSource"/>
 		<!-- mybatis配置文件 -->
 		<property name="configLocation" value="classpath:SqlMapConfig.xml"/>
-		<property name="mapperLocations">
-			<list>
-				<value>classpath:sysUser/mappers/*.xml</value>
-			</list>
-		</property>
+		<!--<property name="mapperLocations" value="classpath:sysUser/dao/*.xml"/>-->
 	</bean>
 	
 	

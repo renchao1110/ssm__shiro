@@ -17,6 +17,7 @@ public class FirstController {
         ActiveUser activeUser = (ActiveUser) subject.getPrincipal();
         //通过model传到页面
         model.addAttribute("activeUser", activeUser);
+
         return "first";
     }
 }
